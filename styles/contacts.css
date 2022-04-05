@@ -1,0 +1,44 @@
+.contacts_header {
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.contacts_container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_text_container {
+    display: inline-block;
+
+    margin: 0 7% 0 7%;
+}
+
+.contacts_text {
+    font-size: 20px;
+
+    display: inline-block;
+
+    color: #a58e60;
+
+    text-decoration: overline 1px;
+}
+
+.contacts_image {
+    position: relative;
+    right: 4%;
+
+    margin-top: 5%;
+}
+
+
+
+
+
+@media screen and (max-width: 1140px) {
+    div[class*="contacts_text_container"] > p {
+        font-size: 14px;
+    }
+}
