@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1">
+    <title>site layout 1</title>
+
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/menu.css" type="text/css">
+    <link rel="stylesheet" href="styles/sign-in-and-up.css" type="text/css">
+    <link rel="stylesheet" href="styles/title-page.css" type="text/css">
+    <link rel="stylesheet" href="styles/servises.css" type="text/css">
+    <link rel="stylesheet" href="styles/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="styles/feedbacks.css" type="text/css">
+    <link rel="stylesheet" href="styles/contacts.css" type="text/css">
+    <link rel="stylesheet" href="styles/footer.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <main>
+      <section>
+        <div class="uppercase center title_page_header_container">
+          <h1 class="undercover header"  id="undercover">undercover</h1>
+          <div class="design_team_container">
+            <h2 class="design_team">design team</h2>
+          </div>
+        </div>
+        
+
+        <nav class="menu_nav_container">
+          <div class="menu_container">
+            <h2 class="uppercase header center">menu</h2>
+            
+            <div class="menu_list_container">
+              <ul class="uppercase menu_list">
+                <li><a href="#">main</a></li>
+                <li><a href="#services">servises</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">pricings</a></li>
+                <li><a href="#feedbacks">feedbacks</a></li>
+                <li><a href="#contacts">contacts</a></li>
+              </ul>
+              <ul class="uppercase menu_list menu_list_two">
+                <li><p class="sign_color">sign up</p></li>
+                <li><p class="sign_color">sign in</p></li>
+                <li><a class="menu_list_two_link" href="#contact-us">send message</a></li>
+              </ul>
+
+              <div class="menu_search_container" id="menu_search_container_two">
+                <form id="search">
+                  <input type="search" placeholder="SEARCH" class="menu_search">
+                  <button type="submit" class="menu_search_button" form="search"></button>
+                </form>
+                <div class="menu_image_container">
+                  <img src="image/menu image.png" alt="menu image" class="menu_image">
+                </div>
+              </div>
+            </div>
+          
+            <div class="menu_search_container" id="menu_search_container_one">
+              <form id="search">
+                <input type="search" placeholder="SEARCH" class="menu_search">
+                <button type="submit" class="menu_search_button" form="search"></button>
+              </form>
+              <div class="menu_image_container">
+                <img src="image/menu image.png" alt="menu image" class="menu_image">
+              </div>
+            </div>
+
+
+
+            <div class="sign_in_container center">
+              <h2 class="uppercase header sign_in">sign in</h2>
+              <p class="uppercase sign_in_text">sign in using</p>
+        
+              <div class="sign_in_container_doughter">
+                <div class="sign_in_button_container">
+                  <button class="sign_in_facebook">facebook</button>
+                  <button class="sign_in_google">google+</button>
+                  <button class="sign_in_twitter">twitter</button>
+                </div>
+          
+                <p class="uppercase sign_in_text">or your account</p>
+                <div>
+                  <form id="sign-in">
+                    <input type="text" name="login" placeholder="Name or Email">
+                    <input type="password" name="password" placeholder="Password">
+                  </form>
+          
+                  <button form="sign-in" type="submit" class="uppercase sign_in_form_button">sign in</button>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="sign_up_container center">
+              <h2 class="uppercase header sign_in">sign up</h2>
+              <p class="uppercase sign_in_text">sign up using</p>
+        
+              <div class="sign_in_container_doughter">
+                <div class="sign_in_button_container">
+                  <button class="sign_in_facebook">facebook</button>
+                  <button class="sign_in_google">google+</button>
+                  <button class="sign_in_twitter">twitter</button>
+                </div>
+          
+                <p class="uppercase sign_in_text">or enter following information</p>
+                <div class="sign_in_form_container">
+                  <form id="sign-up">
+                    <input type="text" name="login" placeholder="Name">
+                    <input type="text" name="login" placeholder="Email">
+                    <input type="password" name="password" placeholder="Password" class="sign_up_password">
+                    <button form="sign-up" type="submit" class="uppercase sign_in_form_button sign_up_button">sign up</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+
+        <div class="center title_page_text_container">
+          <img src="image/lamp.png" alt="lamp" class="title_page_image">
+          <img src="image/list.png" alt="menu icon" class="title_page_menu">
+          <p class="uppercase title_page_text" id="title_page_text_one">our design'<span class="title_page_text_gradient_one">s so wanted that we</span> have to hide</p>
+          <p class="uppercase title_page_text" id="title_page_text_two">
+            <span class="title_page_text_gradient_one">our designs so wanted</span> <br><span class="title_page_text_gradient_two">that we have to hide</span>
+          </p>
+        </div>
+        
+        <div class="center">
+          <p class="uppercase title_page_more_text">scroll down for more</p>
+          <img src="image/down.png" alt="down" class="title_page_more_image">
+        </div>
+      </section>
+
+
+      <section>
+        <h2 class="uppercase center header" id="services">services</h2>
+        <div class="general_container">
+          <div class="services_list_container inability_single_out">
+            <ul class="uppercase services_list">
+              <li><p id="1" class="services_list_header">web design</p></li>
+              <li><p id="2">logo design</p></li>
+              <li><p id="3">branding</p></li>
+              <li><p id="4">ui</p></li>
+              <li><p id="5">photography</p></li>
+              <li><p id="6">graphic design</p></li>
+            </ul>
+          </div>
+          
+          <div class="services_text_container" id="web-design">
+            <p class="services_text">Web design is our passion. Our team likes to create unique web pages for our clients. Understanding users is key point to good interaction with him through web design. <a href="#portfolio" class="services_link">See more <span>or</span> portfolio</a></p>
+            <img src="image/services/laptop.png" alt="laptop" class="services_image">
+          </div>
+
+          <div class="services_text_container" id="logo-design">
+            <p class="services_text services_text_logo_design">Logo is the first thing customer or user will see in your product. And his or her first impression will depend on it. We can create logo that will satisfy you and your clients. <a href="#portfolio" class="services_link">See more <span>or</span> portfolio</a></p>
+            <img src="image/services/logo design image.png" alt="logo design" class="services_image services_image_logo_design">
+          </div>
+
+          <div class="services_text_container" id="ul">
+            <p class="services_text services_text_ul">Nowadays smartphones are part of our life. with help of numerous apps we can do our life more simple and fun. Our Ul department specialists can develop and test any app that you want to create. <a href="#portfolio" class="services_link">See more <span>or</span> portfolio</a></p>
+            <img src="image/services/ui image.png" alt="ul" class="services_image services_image_ul">
+          </div>
+
+          <div class="services_text_container" id="photography">
+            <p class="services_text services_text_photography">To create unique designs often you need some photos. In our time using stock photos is kind of bad manner. So we decided to open and develop our own photography department to create unique products for you. <a href="#portfolio" class="services_link">See more <span>or</span> portfolio</a></p>
+            <img src="image/services/photography image.png" alt="photography" class="services_image services_image_photography">
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2 class="uppercase center header" id="portfolio">portfolio</h2>
+        <div class="center inability_single_out">
+          <select class="portfolio_select">
+            <option selected hidden>All categories</option>
+            <option>Web Design</option>
+            <option>Logo Design</option>
+            <option>Branding</option>
+            <option>UI</option>
+            <option>Photography</option>
+            <option>Graphic Design</option>
+          </select><div class="arrow">&#5167;</div>
+        </div>
+
+
+
+        <div class="portfolio_block_container center">
+          <div class="portfolio_block item1">
+
+            <div class="portfolio_hover_block portfolio_hover_block_position_one">
+              <a href="#" class="uppercase portfolio_hover_block_text">see full project</a>
+            </div>
+
+            <div class="portfolio_block_description">
+              <h3 class="uppercase portfolio_block_description_header">subsence <br>monochrome
+                <div class="portfolio_block_line"></div>
+              </h3>
+
+              <div>
+                <p class="portfolio_block_top_text">Web design in monochromatic colors for <span class="uppercase">subsence</span> agency.</p>
+                <p class="portfolio_block_bottom_text">web design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_block item3">
+
+            <div class="portfolio_hover_block portfolio_hover_block_position_two">
+              <a href="#" class="uppercase portfolio_hover_block_text">see full project</a>
+            </div>
+
+            <div class="portfolio_block_description">
+              <h3 class="uppercase portfolio_block_description_header">design agency <br>business card
+                <div class="portfolio_block_line"></div>
+              </h3>
+
+              <div>
+                <p class="portfolio_block_top_text">Logotype and business card design for <span class="uppercase">artdesign</span> agency.</p>
+                <p class="portfolio_block_bottom_text">branding</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_block item2">
+
+            <div class="portfolio_hover_block portfolio_hover_block_position_one">
+              <a href="#" class="uppercase portfolio_hover_block_text">see full project</a>
+            </div>
+
+            <div class="portfolio_block_description">
+              <h3 class="uppercase portfolio_block_description_header">fixedgear shop <br>photoshoot
+                <div class="portfolio_block_line"></div>
+              </h3>
+
+              <div>
+                <p class="portfolio_block_top_text">Photoshoot for the annual issue of the fixed gear and road bikes magazine.</p>
+                <p class="portfolio_block_bottom_text">photography</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio_block item4">
+
+            <div class="portfolio_hover_block portfolio_hover_block_position_two">
+              <a href="#" class="uppercase portfolio_hover_block_text">see full project</a>
+            </div>
+
+            <div class="portfolio_block_description">
+              <h3 class="uppercase portfolio_block_description_header">editor's <br>personal page
+                <div class="portfolio_block_line"></div>
+              </h3>
+
+              <div>
+                <p class="portfolio_block_top_text">Web page created for Ryan Fields a Famous US editor.</p>
+                <p class="portfolio_block_bottom_text">web design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="flip_slider center uppercase inability_single_out">
+          <a onclick="currentSlide(1)" class="first_page">1</a>
+          <a onclick="previousSlide()" class="slider_text">prev</a>
+          <a id="currentPage" class="slider_current_page"></a>
+          <a onclick="nextSlide()" class="slider_text">next</a>
+          <a id="lastPage" onclick="currentSlide(pages.length)" class="last_page"></a>
+        </div>
+      </section>
+
+      <section>
+        <div class="feedbacks_container">
+          <h2 class="uppercase header center feedbacks_header" id="feedbacks">feedbacks</h2>
+          <div class="feedbacks_text_container">
+            <img src="image/feedbacks/photo-1.png" alt="photo-1" class="feedbacks_image">
+            <p class="feedbacks_text">Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.</p>
+          </div>
+          <p class="uppercase feedbacks_name">sarah robinson</p>
+
+          <div class="feedbacks_text_container">
+            <img src="image/feedbacks/photo-2.png" alt="photo-2" class="feedbacks_image">
+            <p class="feedbacks_text">At first i was not sure about this team but i decided to give them a chance. And they didn't let me down. Good job, guys.</p>
+          </div>
+          <p class="uppercase feedbacks_name">nathan perish</p>
+
+          <div class="feedbacks_text_container">
+            <img src="image/feedbacks/photo-3.png" alt="photo-3" class="feedbacks_image">
+            <p class="feedbacks_text">Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.</p>
+          </div>
+          <p class="uppercase feedbacks_name feedbacks_name_last">amy jones</p>
+
+          <div class="center">
+            <a href="#" class="uppercase feedbacks_link">click here for more feedbacks</a>
+          </div>
+        </div>
+
+        <div class="contact_us_container">
+          <h2 class="uppercase header center feedbacks_header" id="contact-us">contact us</h2>
+
+          <form action="malito:" enctype="text/plain" id="contact_us">
+            <input placeholder="Name" class="contact_us_input">
+            <input placeholder="Email" class="contact_us_input">
+            <textarea placeholder="Your message" class="contact_us_input contact_us_input_text"></textarea>
+          </form>
+          <div class="center">
+            <button type="submit" form="contact_us" class="uppercase contact_us_button">send</button>
+          </div>
+          <div class="contact_us_image_container">
+            <img src="image/contact us.png" alt="contact us" class="contact_us_image">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="center contacts_header">
+          <h2 class="header uppercase" id="contacts">contacts</h2>
+        </div>
+
+        <div class="contacts_container center uppercase">
+          <div class="contacts_text_container">
+            <p class="contacts_text">phone</p>
+
+            <p>8-800-500-40-10</p>
+            <p>8-800-700-80-20</p>
+          </div>
+
+          <div class="contacts_text_container">
+            <p class="contacts_text">email</p>
+
+            <p>undercoverdesign@mail.com</p>
+            <p>undercoversupport@mail.com</p>
+          </div>
+
+          <div class="contacts_text_container">
+            <p class="contacts_text">adress</p>
+
+            <p>javastraat 43,</p>
+            <p>amsterdam, netherlands</p>
+          </div>
+        </div>
+
+        <div class="center">
+          <img src="image/contacts.png" alt="contacts" class="contacts_image">
+        </div>
+      </section>
+
+      <section>
+        <p class="center uppercase title_page_text" id="footer_text_one">this is the pla<span class="title_page_text_gradient_one">ce where sparkles of idea</span> turns into fire</p>
+        <p class="center uppercase title_page_text" id="footer_text_two"><span class="title_page_text_gradient_one">this is the place where sparkles</span> <br><span class="title_page_text_gradient_two">of idea turns into fire</span></p>
+
+        <div class="uppercase footer_link_container" id="footer_link_container_one">
+          <a href="#services">services</a>
+          <a href="#portfolio">portfolio</a>
+          <a href="#feedbacks">feedbacks</a>
+          <a href="#contact-us">contact us</a>
+          <a href="#contacts">contacts</a>
+          <a href="#">facebook</a>
+          <a href="#">linkedin</a>
+          <a href="#">twitter</a>
+          <a href="#">google+</a>
+          <a href="#undercover" id="sign-up-link">sign up</a>
+          <a href="#undercover" id="sign-in-link">sign in</a>
+          <a href="#search">search</a>
+        </div>
+
+        <div class="uppercase footer_link_container_two" id="footer_link_container_two">
+          <div>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#feedbacks">feedbacks</a>
+            <a href="#contact-us">contact us</a>
+            <a href="#contacts">contacts</a>
+          </div>
+          
+          <div>
+            <a href="#">facebook</a>
+            <a href="#">linkedin</a>
+            <a href="#">twitter</a>
+            <a href="#">google+</a>
+            <a href="#undercover" id="sign-up-link">sign up</a>
+            <a href="#undercover" id="sign-in-link">sign in</a>
+            <a href="#search">search</a>
+          </div>
+        </div>
+
+        <div class="center footer_image_container">
+          <img src="image/footer.png" alt="footer" class="footer_image">
+        </div>
+      </section>
+    </main>
+    <script src="scripts/title-page-menu.js"></script>
+    <script src="scripts/services-list.js"></script>
+    <script src="scripts/select.js"></script>
+    <script src="scripts/portfolio-block.js"></script>
+    <script src="scripts/slider.js"></script>
+  </body>
+</html>
